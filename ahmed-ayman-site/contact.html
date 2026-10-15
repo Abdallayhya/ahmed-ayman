@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Ahmed Ayman</title><meta name="description" content="Contact coach Ahmed Ayman to start your fitness journey.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/lang.js" defer></script><script src="js/main.js" defer></script>
+</head>
+<body data-page="contact"><div id="nav"></div><main>
+<section class="container sec-head rv"><h1 data-i18n="c_t"></h1></section>
+<section class="container contact">
+  <div class="card rv">
+    <div class="ci"><div class="ico" data-icon="phone"></div><a data-c="phone" data-href="tel:"></a></div>
+    <div class="ci"><div class="ico" data-icon="mail"></div><a data-c="email" data-href="mailto:"></a></div>
+    <div class="ci"><div class="ico" data-icon="instagram"></div><a data-c="ig" data-href="">Instagram</a></div>
+    <div class="ci"><div class="ico" data-icon="facebook"></div><a data-c="fb" data-href="">Facebook</a></div>
+    <a class="btn btn-primary" id="wabtn" target="_blank" rel="noopener" data-i18n="wa_btn"></a>
+  </div>
+  <form class="card form rv" id="cf" novalidate>
+    <label><span data-i18n="f_name"></span><input name="name" autocomplete="name"><span class="err" data-err="name"></span></label>
+    <label><span data-i18n="f_phone"></span><input name="phone" type="tel" autocomplete="tel"><span class="err" data-err="phone"></span></label>
+    <label><span data-i18n="f_email"></span><input name="email" type="email" autocomplete="email"><span class="err" data-err="email"></span></label>
+    <label><span data-i18n="f_goal"></span><select name="goal"><option data-i18n="g1"></option><option data-i18n="g2"></option><option data-i18n="g3"></option><option data-i18n="g4"></option></select></label>
+    <label><span data-i18n="f_msg"></span><textarea name="message" rows="4"></textarea><span class="err" data-err="message"></span></label>
+    <button class="btn btn-primary" type="submit" data-i18n="f_send"></button>
+    <p class="ok" id="fs" role="status"></p>
+  </form>
+</section>
+</main><div id="foot"></div></body></html>
